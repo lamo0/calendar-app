@@ -1,0 +1,83 @@
+*, html {
+    line-height: 1.8;
+    font-family: "Rubik", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: #111;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.4em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.2em;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 2.0em;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 1.65em;
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+@include responsive (desktop) {
+    h1 {
+        font-size: 2.7em;
+    }
+    
+    h2 {
+        font-size: 2.5em;
+    }
+    
+    h3 {
+        font-size: 2.3em;
+    }
+    
+    h4 {
+        font-size: 2.1em;
+    }
+    
+    h5 {
+        font-size: 1.9em;
+    }
+    
+    h6 {
+        font-size: 1.7em;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $blue;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

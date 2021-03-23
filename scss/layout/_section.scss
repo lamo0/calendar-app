@@ -1,0 +1,16 @@
+.section {
+    margin: 0 auto;
+    @include responsive (mobile) {
+        padding-left:8px;
+        padding-right:8px;
+    }
+    @include responsive (tablet) {
+        padding-left:50px;
+        padding-right:50px;
+    }
+    @include responsive (desktop) {
+        padding-left:100px;
+        padding-right:100px;
+        max-width: 1300px;
+    }
+}
